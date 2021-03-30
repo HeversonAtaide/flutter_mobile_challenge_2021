@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 class CoordinatesModel {
-  final String latitude;
-  final String longitude;
+  final double latitude;
+  final double longitude;
 
   CoordinatesModel(
     this.latitude,
@@ -18,8 +18,8 @@ class CoordinatesModel {
 
   factory CoordinatesModel.fromMap(Map<String, dynamic> map) {
     return CoordinatesModel(
-      map['latitude'],
-      map['longitude'],
+      double.parse(map['latitude']),
+      double.parse(map['longitude']),
     );
   }
 

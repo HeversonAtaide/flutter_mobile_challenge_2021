@@ -62,7 +62,7 @@ main() {
   );
 
   test(
-    // [MODULO][CAMADA][TIPOTESTE]
+    // [MODULE][LAYER][TESTTYPE]
     '[HOME][INFRA][UNIT]'
     'should return a [GetPatientsServerDatasourceError],'
     'when [PatientServerDatasource] fails,'

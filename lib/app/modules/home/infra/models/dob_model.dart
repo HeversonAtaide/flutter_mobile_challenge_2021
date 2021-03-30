@@ -1,8 +1,10 @@
 import 'dart:convert';
 
+import 'package:intl/intl.dart';
+
 class DobModel {
   final DateTime date;
-  final String age;
+  final int age;
 
   DobModel(
     this.date,
@@ -18,7 +20,7 @@ class DobModel {
 
   factory DobModel.fromMap(Map<String, dynamic> map) {
     return DobModel(
-      DateTime.fromMillisecondsSinceEpoch(map['date']),
+      DateFormat("yyyy-MM-ddThh:mm:ss").parse(map['date']),
       map['age'],
     );
   }
