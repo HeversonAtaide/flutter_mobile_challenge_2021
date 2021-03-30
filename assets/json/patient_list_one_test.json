@@ -1,0 +1,2110 @@
+{
+    "results": [
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Lucineide",
+                "last": "Vieira"
+            },
+            "location": {
+                "street": {
+                    "number": 2479,
+                    "name": "Rua Dois"
+                },
+                "city": "Betim",
+                "state": "São Paulo",
+                "country": "Brazil",
+                "postcode": 78276,
+                "coordinates": {
+                    "latitude": "2.0565",
+                    "longitude": "95.2422"
+                },
+                "timezone": {
+                    "offset": "+1:00",
+                    "description": "Brussels, Copenhagen, Madrid, Paris"
+                }
+            },
+            "email": "lucineide.vieira@example.com",
+            "dob": {
+                "date": "1966-06-26T11:50:25.558Z",
+                "age": 55
+            },
+            "phone": "(36) 2351-8980",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/88.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/88.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/88.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Ms",
+                "first": "Dena",
+                "last": "de Souza"
+            },
+            "location": {
+                "street": {
+                    "number": 7559,
+                    "name": "Rua Santa Catarina "
+                },
+                "city": "Ipatinga",
+                "state": "Distrito Federal",
+                "country": "Brazil",
+                "postcode": 97293,
+                "coordinates": {
+                    "latitude": "89.4367",
+                    "longitude": "135.6354"
+                },
+                "timezone": {
+                    "offset": "-7:00",
+                    "description": "Mountain Time (US & Canada)"
+                }
+            },
+            "email": "dena.desouza@example.com",
+            "dob": {
+                "date": "1982-12-16T16:24:49.619Z",
+                "age": 39
+            },
+            "phone": "(01) 0083-5441",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/0.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/0.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/0.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Abigail",
+                "last": "Santos"
+            },
+            "location": {
+                "street": {
+                    "number": 2930,
+                    "name": "Rua São Paulo "
+                },
+                "city": "Magé",
+                "state": "Mato Grosso do Sul",
+                "country": "Brazil",
+                "postcode": 52293,
+                "coordinates": {
+                    "latitude": "3.9825",
+                    "longitude": "176.6213"
+                },
+                "timezone": {
+                    "offset": "-6:00",
+                    "description": "Central Time (US & Canada), Mexico City"
+                }
+            },
+            "email": "abigail.santos@example.com",
+            "dob": {
+                "date": "1996-03-02T16:57:46.147Z",
+                "age": 25
+            },
+            "phone": "(95) 7883-0656",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/65.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/65.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/65.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Ovídio",
+                "last": "Lima"
+            },
+            "location": {
+                "street": {
+                    "number": 8030,
+                    "name": "Rua Santos Dumont "
+                },
+                "city": "Guarapuava",
+                "state": "Ceará",
+                "country": "Brazil",
+                "postcode": 12873,
+                "coordinates": {
+                    "latitude": "52.7455",
+                    "longitude": "6.1478"
+                },
+                "timezone": {
+                    "offset": "-7:00",
+                    "description": "Mountain Time (US & Canada)"
+                }
+            },
+            "email": "ovidio.lima@example.com",
+            "dob": {
+                "date": "1977-07-05T17:12:40.026Z",
+                "age": 44
+            },
+            "phone": "(42) 4356-5891",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/48.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/48.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/48.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Hólger",
+                "last": "Nascimento"
+            },
+            "location": {
+                "street": {
+                    "number": 7949,
+                    "name": "Rua Dois"
+                },
+                "city": "Santana de Parnaíba",
+                "state": "Bahia",
+                "country": "Brazil",
+                "postcode": 79502,
+                "coordinates": {
+                    "latitude": "-18.3929",
+                    "longitude": "-5.5054"
+                },
+                "timezone": {
+                    "offset": "+4:00",
+                    "description": "Abu Dhabi, Muscat, Baku, Tbilisi"
+                }
+            },
+            "email": "holger.nascimento@example.com",
+            "dob": {
+                "date": "1973-07-18T18:30:14.060Z",
+                "age": 48
+            },
+            "phone": "(23) 8464-1973",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/64.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/64.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/64.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Décio",
+                "last": "Santos"
+            },
+            "location": {
+                "street": {
+                    "number": 5206,
+                    "name": "Rua Santa Luzia "
+                },
+                "city": "Botucatu",
+                "state": "Distrito Federal",
+                "country": "Brazil",
+                "postcode": 77267,
+                "coordinates": {
+                    "latitude": "-1.8238",
+                    "longitude": "-38.6202"
+                },
+                "timezone": {
+                    "offset": "0:00",
+                    "description": "Western Europe Time, London, Lisbon, Casablanca"
+                }
+            },
+            "email": "decio.santos@example.com",
+            "dob": {
+                "date": "1947-11-29T06:52:38.279Z",
+                "age": 74
+            },
+            "phone": "(42) 1196-8269",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/25.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/25.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/25.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Ms",
+                "first": "Aimée",
+                "last": "da Rocha"
+            },
+            "location": {
+                "street": {
+                    "number": 5400,
+                    "name": "Rua da Paz "
+                },
+                "city": "São Leopoldo",
+                "state": "Amazonas",
+                "country": "Brazil",
+                "postcode": 22188,
+                "coordinates": {
+                    "latitude": "-35.4549",
+                    "longitude": "149.0069"
+                },
+                "timezone": {
+                    "offset": "+9:00",
+                    "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+                }
+            },
+            "email": "aimee.darocha@example.com",
+            "dob": {
+                "date": "1967-10-09T20:04:48.972Z",
+                "age": 54
+            },
+            "phone": "(79) 5422-9427",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/31.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/31.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/31.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Aloísio",
+                "last": "Santos"
+            },
+            "location": {
+                "street": {
+                    "number": 6373,
+                    "name": "Rua São João "
+                },
+                "city": "Valparaíso de Goiás",
+                "state": "Rondônia",
+                "country": "Brazil",
+                "postcode": 18805,
+                "coordinates": {
+                    "latitude": "73.3382",
+                    "longitude": "-15.8943"
+                },
+                "timezone": {
+                    "offset": "-7:00",
+                    "description": "Mountain Time (US & Canada)"
+                }
+            },
+            "email": "aloisio.santos@example.com",
+            "dob": {
+                "date": "1948-04-23T09:43:10.183Z",
+                "age": 73
+            },
+            "phone": "(22) 7985-2279",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/98.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/98.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/98.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Mrs",
+                "first": "Benete",
+                "last": "Aragão"
+            },
+            "location": {
+                "street": {
+                    "number": 9505,
+                    "name": "Rua Das Flores "
+                },
+                "city": "São Lourenço da Mata",
+                "state": "Mato Grosso do Sul",
+                "country": "Brazil",
+                "postcode": 66137,
+                "coordinates": {
+                    "latitude": "-20.3448",
+                    "longitude": "-114.4092"
+                },
+                "timezone": {
+                    "offset": "+5:45",
+                    "description": "Kathmandu"
+                }
+            },
+            "email": "benete.aragao@example.com",
+            "dob": {
+                "date": "1982-12-07T00:14:40.693Z",
+                "age": 39
+            },
+            "phone": "(71) 6163-4901",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/6.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/6.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/6.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Mrs",
+                "first": "Valdelaine",
+                "last": "Teixeira"
+            },
+            "location": {
+                "street": {
+                    "number": 8843,
+                    "name": "Rua Carlos Gomes"
+                },
+                "city": "Serra",
+                "state": "Bahia",
+                "country": "Brazil",
+                "postcode": 89425,
+                "coordinates": {
+                    "latitude": "48.2435",
+                    "longitude": "-61.3271"
+                },
+                "timezone": {
+                    "offset": "-8:00",
+                    "description": "Pacific Time (US & Canada)"
+                }
+            },
+            "email": "valdelaine.teixeira@example.com",
+            "dob": {
+                "date": "1974-10-13T02:15:15.776Z",
+                "age": 47
+            },
+            "phone": "(07) 0242-1330",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/53.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/53.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/53.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Leonídio",
+                "last": "Dias"
+            },
+            "location": {
+                "street": {
+                    "number": 276,
+                    "name": "Rua Santos Dumont "
+                },
+                "city": "Maracanaú",
+                "state": "São Paulo",
+                "country": "Brazil",
+                "postcode": 82544,
+                "coordinates": {
+                    "latitude": "-34.7592",
+                    "longitude": "3.3898"
+                },
+                "timezone": {
+                    "offset": "-9:00",
+                    "description": "Alaska"
+                }
+            },
+            "email": "leonidio.dias@example.com",
+            "dob": {
+                "date": "1972-09-07T08:22:08.662Z",
+                "age": 49
+            },
+            "phone": "(18) 8594-6984",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/44.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/44.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/44.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Everardo",
+                "last": "Nogueira"
+            },
+            "location": {
+                "street": {
+                    "number": 7490,
+                    "name": "Rua Dois"
+                },
+                "city": "Sete Lagoas",
+                "state": "Piauí",
+                "country": "Brazil",
+                "postcode": 54191,
+                "coordinates": {
+                    "latitude": "-51.9113",
+                    "longitude": "114.4710"
+                },
+                "timezone": {
+                    "offset": "-1:00",
+                    "description": "Azores, Cape Verde Islands"
+                }
+            },
+            "email": "everardo.nogueira@example.com",
+            "dob": {
+                "date": "1949-05-16T04:42:17.832Z",
+                "age": 72
+            },
+            "phone": "(32) 0336-5541",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/56.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/56.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/56.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Ms",
+                "first": "Diana",
+                "last": "Mendes"
+            },
+            "location": {
+                "street": {
+                    "number": 7253,
+                    "name": "Rua Bela Vista "
+                },
+                "city": "Rio Branco",
+                "state": "São Paulo",
+                "country": "Brazil",
+                "postcode": 76497,
+                "coordinates": {
+                    "latitude": "-8.3241",
+                    "longitude": "178.4076"
+                },
+                "timezone": {
+                    "offset": "+11:00",
+                    "description": "Magadan, Solomon Islands, New Caledonia"
+                }
+            },
+            "email": "diana.mendes@example.com",
+            "dob": {
+                "date": "1974-02-16T20:22:40.799Z",
+                "age": 47
+            },
+            "phone": "(87) 9255-9403",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/60.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/60.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/60.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Sisínio",
+                "last": "Vieira"
+            },
+            "location": {
+                "street": {
+                    "number": 4218,
+                    "name": "Rua Piauí "
+                },
+                "city": "Teixeira de Freitas",
+                "state": "Minas Gerais",
+                "country": "Brazil",
+                "postcode": 38474,
+                "coordinates": {
+                    "latitude": "16.7985",
+                    "longitude": "-17.8406"
+                },
+                "timezone": {
+                    "offset": "-9:00",
+                    "description": "Alaska"
+                }
+            },
+            "email": "sisinio.vieira@example.com",
+            "dob": {
+                "date": "1959-02-05T15:28:32.887Z",
+                "age": 62
+            },
+            "phone": "(68) 8927-0943",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/52.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/52.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/52.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Mrs",
+                "first": "Jandira",
+                "last": "da Conceição"
+            },
+            "location": {
+                "street": {
+                    "number": 799,
+                    "name": "Rua Santos Dumont "
+                },
+                "city": "Pelotas",
+                "state": "São Paulo",
+                "country": "Brazil",
+                "postcode": 26055,
+                "coordinates": {
+                    "latitude": "34.3307",
+                    "longitude": "10.0601"
+                },
+                "timezone": {
+                    "offset": "-1:00",
+                    "description": "Azores, Cape Verde Islands"
+                }
+            },
+            "email": "jandira.daconceicao@example.com",
+            "dob": {
+                "date": "1948-11-04T15:47:42.605Z",
+                "age": 73
+            },
+            "phone": "(90) 9048-3563",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/27.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/27.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/27.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Roboredo",
+                "last": "Lima"
+            },
+            "location": {
+                "street": {
+                    "number": 5707,
+                    "name": "Rua Amazonas "
+                },
+                "city": "Criciúma",
+                "state": "Sergipe",
+                "country": "Brazil",
+                "postcode": 69056,
+                "coordinates": {
+                    "latitude": "-84.4183",
+                    "longitude": "153.8337"
+                },
+                "timezone": {
+                    "offset": "+2:00",
+                    "description": "Kaliningrad, South Africa"
+                }
+            },
+            "email": "roboredo.lima@example.com",
+            "dob": {
+                "date": "1952-03-16T06:57:28.249Z",
+                "age": 69
+            },
+            "phone": "(82) 5019-5211",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/64.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/64.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/64.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Ms",
+                "first": "Claudilene",
+                "last": "Farias"
+            },
+            "location": {
+                "street": {
+                    "number": 5190,
+                    "name": "Rua São Sebastiao "
+                },
+                "city": "Vitória",
+                "state": "Ceará",
+                "country": "Brazil",
+                "postcode": 25917,
+                "coordinates": {
+                    "latitude": "-87.5972",
+                    "longitude": "-67.8460"
+                },
+                "timezone": {
+                    "offset": "-11:00",
+                    "description": "Midway Island, Samoa"
+                }
+            },
+            "email": "claudilene.farias@example.com",
+            "dob": {
+                "date": "1976-01-19T04:32:08.166Z",
+                "age": 45
+            },
+            "phone": "(88) 9932-7058",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/5.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/5.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/5.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Alberico",
+                "last": "Peixoto"
+            },
+            "location": {
+                "street": {
+                    "number": 3697,
+                    "name": "Rua Três"
+                },
+                "city": "Contagem",
+                "state": "Goiás",
+                "country": "Brazil",
+                "postcode": 25758,
+                "coordinates": {
+                    "latitude": "19.4308",
+                    "longitude": "-179.5970"
+                },
+                "timezone": {
+                    "offset": "+3:30",
+                    "description": "Tehran"
+                }
+            },
+            "email": "alberico.peixoto@example.com",
+            "dob": {
+                "date": "1961-10-16T01:11:06.232Z",
+                "age": 60
+            },
+            "phone": "(73) 7390-9474",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/66.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/66.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/66.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Ms",
+                "first": "Prisca",
+                "last": "Moraes"
+            },
+            "location": {
+                "street": {
+                    "number": 7183,
+                    "name": "Rua Paraná "
+                },
+                "city": "Parnaíba",
+                "state": "Bahia",
+                "country": "Brazil",
+                "postcode": 60580,
+                "coordinates": {
+                    "latitude": "69.5493",
+                    "longitude": "178.1298"
+                },
+                "timezone": {
+                    "offset": "+4:30",
+                    "description": "Kabul"
+                }
+            },
+            "email": "prisca.moraes@example.com",
+            "dob": {
+                "date": "1971-12-30T20:20:56.776Z",
+                "age": 50
+            },
+            "phone": "(03) 5394-3750",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/25.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/25.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/25.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Romeu",
+                "last": "Silveira"
+            },
+            "location": {
+                "street": {
+                    "number": 5301,
+                    "name": "Travessa dos Martírios"
+                },
+                "city": "Praia Grande",
+                "state": "Minas Gerais",
+                "country": "Brazil",
+                "postcode": 97189,
+                "coordinates": {
+                    "latitude": "25.6881",
+                    "longitude": "-158.0529"
+                },
+                "timezone": {
+                    "offset": "-7:00",
+                    "description": "Mountain Time (US & Canada)"
+                }
+            },
+            "email": "romeu.silveira@example.com",
+            "dob": {
+                "date": "1985-04-25T13:28:02.800Z",
+                "age": 36
+            },
+            "phone": "(10) 7790-7271",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/88.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/88.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/88.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Adónis",
+                "last": "Moraes"
+            },
+            "location": {
+                "street": {
+                    "number": 7182,
+                    "name": "Rua Carlos Gomes"
+                },
+                "city": "Limeira",
+                "state": "Ceará",
+                "country": "Brazil",
+                "postcode": 91274,
+                "coordinates": {
+                    "latitude": "-76.0448",
+                    "longitude": "-30.8710"
+                },
+                "timezone": {
+                    "offset": "+5:00",
+                    "description": "Ekaterinburg, Islamabad, Karachi, Tashkent"
+                }
+            },
+            "email": "adonis.moraes@example.com",
+            "dob": {
+                "date": "1956-08-08T19:09:22.733Z",
+                "age": 65
+            },
+            "phone": "(26) 5772-5997",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/54.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/54.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/54.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Cireneu",
+                "last": "da Mota"
+            },
+            "location": {
+                "street": {
+                    "number": 609,
+                    "name": "Rua Santo Antônio "
+                },
+                "city": "Suzano",
+                "state": "Bahia",
+                "country": "Brazil",
+                "postcode": 83166,
+                "coordinates": {
+                    "latitude": "37.7832",
+                    "longitude": "71.6581"
+                },
+                "timezone": {
+                    "offset": "+8:00",
+                    "description": "Beijing, Perth, Singapore, Hong Kong"
+                }
+            },
+            "email": "cireneu.damota@example.com",
+            "dob": {
+                "date": "1964-10-25T15:36:36.453Z",
+                "age": 57
+            },
+            "phone": "(29) 6650-6070",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/26.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/26.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/26.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Francislene",
+                "last": "Mendes"
+            },
+            "location": {
+                "street": {
+                    "number": 8563,
+                    "name": "Rua Amazonas "
+                },
+                "city": "Petrópolis",
+                "state": "Mato Grosso",
+                "country": "Brazil",
+                "postcode": 50063,
+                "coordinates": {
+                    "latitude": "-26.6878",
+                    "longitude": "171.5018"
+                },
+                "timezone": {
+                    "offset": "-12:00",
+                    "description": "Eniwetok, Kwajalein"
+                }
+            },
+            "email": "francislene.mendes@example.com",
+            "dob": {
+                "date": "1962-06-19T06:54:06.834Z",
+                "age": 59
+            },
+            "phone": "(90) 4349-9209",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/11.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/11.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/11.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Túlia",
+                "last": "Pires"
+            },
+            "location": {
+                "street": {
+                    "number": 5914,
+                    "name": "Rua São Francisco "
+                },
+                "city": "São Caetano do Sul",
+                "state": "Alagoas",
+                "country": "Brazil",
+                "postcode": 57983,
+                "coordinates": {
+                    "latitude": "-46.5562",
+                    "longitude": "83.7215"
+                },
+                "timezone": {
+                    "offset": "-12:00",
+                    "description": "Eniwetok, Kwajalein"
+                }
+            },
+            "email": "tulia.pires@example.com",
+            "dob": {
+                "date": "1971-07-18T00:56:37.024Z",
+                "age": 50
+            },
+            "phone": "(94) 3837-1682",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/71.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/71.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/71.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Caio",
+                "last": "Fogaça"
+            },
+            "location": {
+                "street": {
+                    "number": 5913,
+                    "name": "Rua Vinte de Setembro"
+                },
+                "city": "Belém",
+                "state": "Amazonas",
+                "country": "Brazil",
+                "postcode": 70148,
+                "coordinates": {
+                    "latitude": "-17.2013",
+                    "longitude": "103.7542"
+                },
+                "timezone": {
+                    "offset": "+5:30",
+                    "description": "Bombay, Calcutta, Madras, New Delhi"
+                }
+            },
+            "email": "caio.fogaca@example.com",
+            "dob": {
+                "date": "1990-07-29T08:33:11.000Z",
+                "age": 31
+            },
+            "phone": "(16) 2989-1151",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/3.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/3.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/3.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Ms",
+                "first": "Serafina",
+                "last": "Teixeira"
+            },
+            "location": {
+                "street": {
+                    "number": 2314,
+                    "name": "Rua Carlos Gomes"
+                },
+                "city": "Mesquita",
+                "state": "Paraíba",
+                "country": "Brazil",
+                "postcode": 98450,
+                "coordinates": {
+                    "latitude": "39.2967",
+                    "longitude": "-16.4718"
+                },
+                "timezone": {
+                    "offset": "+6:00",
+                    "description": "Almaty, Dhaka, Colombo"
+                }
+            },
+            "email": "serafina.teixeira@example.com",
+            "dob": {
+                "date": "1946-12-07T15:20:37.092Z",
+                "age": 75
+            },
+            "phone": "(57) 8686-9817",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/69.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/69.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/69.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Umbelina",
+                "last": "Moreira"
+            },
+            "location": {
+                "street": {
+                    "number": 9395,
+                    "name": "Rua Sete de Setembro "
+                },
+                "city": "Jaú",
+                "state": "Piauí",
+                "country": "Brazil",
+                "postcode": 96723,
+                "coordinates": {
+                    "latitude": "61.5039",
+                    "longitude": "-103.7195"
+                },
+                "timezone": {
+                    "offset": "+4:00",
+                    "description": "Abu Dhabi, Muscat, Baku, Tbilisi"
+                }
+            },
+            "email": "umbelina.moreira@example.com",
+            "dob": {
+                "date": "1982-10-16T15:24:16.683Z",
+                "age": 39
+            },
+            "phone": "(90) 8959-1712",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/77.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/77.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/77.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Mrs",
+                "first": "Elenise",
+                "last": "Monteiro"
+            },
+            "location": {
+                "street": {
+                    "number": 6096,
+                    "name": "Rua Principal"
+                },
+                "city": "Campos dos Goytacazes",
+                "state": "Rio Grande do Sul",
+                "country": "Brazil",
+                "postcode": 15906,
+                "coordinates": {
+                    "latitude": "-84.2616",
+                    "longitude": "88.7761"
+                },
+                "timezone": {
+                    "offset": "+3:30",
+                    "description": "Tehran"
+                }
+            },
+            "email": "elenise.monteiro@example.com",
+            "dob": {
+                "date": "1978-03-20T11:53:14.906Z",
+                "age": 43
+            },
+            "phone": "(60) 5278-9144",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/92.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/92.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/92.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Arnoldo",
+                "last": "Campos"
+            },
+            "location": {
+                "street": {
+                    "number": 7670,
+                    "name": "Rua Amazonas "
+                },
+                "city": "Franca",
+                "state": "Tocantins",
+                "country": "Brazil",
+                "postcode": 58378,
+                "coordinates": {
+                    "latitude": "42.4701",
+                    "longitude": "175.6639"
+                },
+                "timezone": {
+                    "offset": "-5:00",
+                    "description": "Eastern Time (US & Canada), Bogota, Lima"
+                }
+            },
+            "email": "arnoldo.campos@example.com",
+            "dob": {
+                "date": "1957-09-02T04:46:33.451Z",
+                "age": 64
+            },
+            "phone": "(85) 4964-6844",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/72.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/72.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/72.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Denísia",
+                "last": "Martins"
+            },
+            "location": {
+                "street": {
+                    "number": 7604,
+                    "name": "Avenida da Legalidade"
+                },
+                "city": "Vespasiano",
+                "state": "Roraima",
+                "country": "Brazil",
+                "postcode": 58771,
+                "coordinates": {
+                    "latitude": "-48.9780",
+                    "longitude": "-74.8831"
+                },
+                "timezone": {
+                    "offset": "-10:00",
+                    "description": "Hawaii"
+                }
+            },
+            "email": "denisia.martins@example.com",
+            "dob": {
+                "date": "1989-11-07T21:58:18.178Z",
+                "age": 32
+            },
+            "phone": "(45) 1969-1816",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/23.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/23.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/23.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Adalsino",
+                "last": "Fernandes"
+            },
+            "location": {
+                "street": {
+                    "number": 4968,
+                    "name": "Rua São João "
+                },
+                "city": "Maringá",
+                "state": "Sergipe",
+                "country": "Brazil",
+                "postcode": 92925,
+                "coordinates": {
+                    "latitude": "-46.3659",
+                    "longitude": "74.8084"
+                },
+                "timezone": {
+                    "offset": "+7:00",
+                    "description": "Bangkok, Hanoi, Jakarta"
+                }
+            },
+            "email": "adalsino.fernandes@example.com",
+            "dob": {
+                "date": "1995-01-25T18:54:25.091Z",
+                "age": 26
+            },
+            "phone": "(38) 5586-5253",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/0.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/0.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/0.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Otelo",
+                "last": "Pinto"
+            },
+            "location": {
+                "street": {
+                    "number": 765,
+                    "name": "Rua São José "
+                },
+                "city": "Timon",
+                "state": "Mato Grosso do Sul",
+                "country": "Brazil",
+                "postcode": 71257,
+                "coordinates": {
+                    "latitude": "-30.7274",
+                    "longitude": "116.7008"
+                },
+                "timezone": {
+                    "offset": "-10:00",
+                    "description": "Hawaii"
+                }
+            },
+            "email": "otelo.pinto@example.com",
+            "dob": {
+                "date": "1971-10-04T09:07:58.674Z",
+                "age": 50
+            },
+            "phone": "(05) 4502-7323",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/46.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/46.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/46.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Mrs",
+                "first": "Carina",
+                "last": "Farias"
+            },
+            "location": {
+                "street": {
+                    "number": 7192,
+                    "name": "Avenida D. Pedro Ii"
+                },
+                "city": "Trindade",
+                "state": "Sergipe",
+                "country": "Brazil",
+                "postcode": 17194,
+                "coordinates": {
+                    "latitude": "5.9678",
+                    "longitude": "49.3395"
+                },
+                "timezone": {
+                    "offset": "0:00",
+                    "description": "Western Europe Time, London, Lisbon, Casablanca"
+                }
+            },
+            "email": "carina.farias@example.com",
+            "dob": {
+                "date": "1985-06-27T17:34:05.271Z",
+                "age": 36
+            },
+            "phone": "(68) 4071-8732",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/69.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/69.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/69.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Rogério",
+                "last": "Ramos"
+            },
+            "location": {
+                "street": {
+                    "number": 8348,
+                    "name": "Rua Amazonas "
+                },
+                "city": "Sabará",
+                "state": "Rondônia",
+                "country": "Brazil",
+                "postcode": 31351,
+                "coordinates": {
+                    "latitude": "-73.4457",
+                    "longitude": "165.6729"
+                },
+                "timezone": {
+                    "offset": "-7:00",
+                    "description": "Mountain Time (US & Canada)"
+                }
+            },
+            "email": "rogerio.ramos@example.com",
+            "dob": {
+                "date": "1945-06-02T08:33:37.734Z",
+                "age": 76
+            },
+            "phone": "(68) 4248-7621",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/13.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/13.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/13.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Getúlio",
+                "last": "Melo"
+            },
+            "location": {
+                "street": {
+                    "number": 7121,
+                    "name": "Rua São Jorge "
+                },
+                "city": "Colatina",
+                "state": "Mato Grosso",
+                "country": "Brazil",
+                "postcode": 95412,
+                "coordinates": {
+                    "latitude": "77.9826",
+                    "longitude": "-108.0198"
+                },
+                "timezone": {
+                    "offset": "+2:00",
+                    "description": "Kaliningrad, South Africa"
+                }
+            },
+            "email": "getulio.melo@example.com",
+            "dob": {
+                "date": "1995-09-10T13:31:58.242Z",
+                "age": 26
+            },
+            "phone": "(70) 4886-0728",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/15.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/15.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/15.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Sebastião",
+                "last": "Sales"
+            },
+            "location": {
+                "street": {
+                    "number": 1321,
+                    "name": "Rua Alagoas "
+                },
+                "city": "Arapongas",
+                "state": "Roraima",
+                "country": "Brazil",
+                "postcode": 90837,
+                "coordinates": {
+                    "latitude": "-37.8509",
+                    "longitude": "-41.8035"
+                },
+                "timezone": {
+                    "offset": "+4:30",
+                    "description": "Kabul"
+                }
+            },
+            "email": "sebastiao.sales@example.com",
+            "dob": {
+                "date": "1989-05-24T21:53:17.948Z",
+                "age": 32
+            },
+            "phone": "(05) 4529-9490",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/97.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/97.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/97.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Silvestre",
+                "last": "Monteiro"
+            },
+            "location": {
+                "street": {
+                    "number": 5737,
+                    "name": "Rua Dezenove de Outubro"
+                },
+                "city": "Araçatuba",
+                "state": "Acre",
+                "country": "Brazil",
+                "postcode": 14964,
+                "coordinates": {
+                    "latitude": "18.3601",
+                    "longitude": "158.2308"
+                },
+                "timezone": {
+                    "offset": "+5:30",
+                    "description": "Bombay, Calcutta, Madras, New Delhi"
+                }
+            },
+            "email": "silvestre.monteiro@example.com",
+            "dob": {
+                "date": "1955-02-12T03:30:33.413Z",
+                "age": 66
+            },
+            "phone": "(36) 7193-3801",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/13.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/13.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/13.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Severo",
+                "last": "Vieira"
+            },
+            "location": {
+                "street": {
+                    "number": 9980,
+                    "name": "Rua Santos Dumont "
+                },
+                "city": "Catanduva",
+                "state": "Sergipe",
+                "country": "Brazil",
+                "postcode": 33202,
+                "coordinates": {
+                    "latitude": "-10.6379",
+                    "longitude": "-37.3219"
+                },
+                "timezone": {
+                    "offset": "0:00",
+                    "description": "Western Europe Time, London, Lisbon, Casablanca"
+                }
+            },
+            "email": "severo.vieira@example.com",
+            "dob": {
+                "date": "1992-07-24T15:46:57.620Z",
+                "age": 29
+            },
+            "phone": "(30) 2072-2724",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/66.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/66.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/66.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Natalie",
+                "last": "Gonçalves"
+            },
+            "location": {
+                "street": {
+                    "number": 5272,
+                    "name": "Rua Pará "
+                },
+                "city": "Araguaína",
+                "state": "Paraíba",
+                "country": "Brazil",
+                "postcode": 24111,
+                "coordinates": {
+                    "latitude": "80.9795",
+                    "longitude": "39.1145"
+                },
+                "timezone": {
+                    "offset": "-1:00",
+                    "description": "Azores, Cape Verde Islands"
+                }
+            },
+            "email": "natalie.goncalves@example.com",
+            "dob": {
+                "date": "1979-06-22T04:40:52.239Z",
+                "age": 42
+            },
+            "phone": "(55) 9875-1566",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/89.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/89.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/89.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Ms",
+                "first": "Waldinélia",
+                "last": "Martins"
+            },
+            "location": {
+                "street": {
+                    "number": 8376,
+                    "name": "Rua São Luiz "
+                },
+                "city": "São Caetano do Sul",
+                "state": "Rio Grande do Sul",
+                "country": "Brazil",
+                "postcode": 69266,
+                "coordinates": {
+                    "latitude": "-50.6728",
+                    "longitude": "-8.9150"
+                },
+                "timezone": {
+                    "offset": "+11:00",
+                    "description": "Magadan, Solomon Islands, New Caledonia"
+                }
+            },
+            "email": "waldinelia.martins@example.com",
+            "dob": {
+                "date": "1985-07-25T17:09:57.007Z",
+                "age": 36
+            },
+            "phone": "(06) 9111-7838",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/21.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/21.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/21.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Mrs",
+                "first": "Acira",
+                "last": "da Mota"
+            },
+            "location": {
+                "street": {
+                    "number": 2526,
+                    "name": "Rua Espirito Santo "
+                },
+                "city": "Vitória de Santo Antão",
+                "state": "Paraíba",
+                "country": "Brazil",
+                "postcode": 14919,
+                "coordinates": {
+                    "latitude": "7.0124",
+                    "longitude": "176.4817"
+                },
+                "timezone": {
+                    "offset": "-10:00",
+                    "description": "Hawaii"
+                }
+            },
+            "email": "acira.damota@example.com",
+            "dob": {
+                "date": "1989-03-23T01:13:19.864Z",
+                "age": 32
+            },
+            "phone": "(51) 7135-0698",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/81.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/81.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/81.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Aron",
+                "last": "Nascimento"
+            },
+            "location": {
+                "street": {
+                    "number": 6328,
+                    "name": "Rua José Bonifácio "
+                },
+                "city": "Santa Rita",
+                "state": "Bahia",
+                "country": "Brazil",
+                "postcode": 89201,
+                "coordinates": {
+                    "latitude": "55.1263",
+                    "longitude": "-122.1816"
+                },
+                "timezone": {
+                    "offset": "+8:00",
+                    "description": "Beijing, Perth, Singapore, Hong Kong"
+                }
+            },
+            "email": "aron.nascimento@example.com",
+            "dob": {
+                "date": "1991-01-28T18:01:30.726Z",
+                "age": 30
+            },
+            "phone": "(96) 5337-4168",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/43.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/43.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/43.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Dulcínio",
+                "last": "Ramos"
+            },
+            "location": {
+                "street": {
+                    "number": 5373,
+                    "name": "Rua Vinte E Um"
+                },
+                "city": "Vitória da Conquista",
+                "state": "Amazonas",
+                "country": "Brazil",
+                "postcode": 64159,
+                "coordinates": {
+                    "latitude": "67.7688",
+                    "longitude": "17.1184"
+                },
+                "timezone": {
+                    "offset": "-2:00",
+                    "description": "Mid-Atlantic"
+                }
+            },
+            "email": "dulcinio.ramos@example.com",
+            "dob": {
+                "date": "1992-10-31T17:28:57.704Z",
+                "age": 29
+            },
+            "phone": "(21) 6084-8636",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/74.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/74.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/74.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Ms",
+                "first": "Lucrécia",
+                "last": "Sales"
+            },
+            "location": {
+                "street": {
+                    "number": 1227,
+                    "name": "Rua Vinte E Um"
+                },
+                "city": "Rio Branco",
+                "state": "Rio Grande do Norte",
+                "country": "Brazil",
+                "postcode": 44334,
+                "coordinates": {
+                    "latitude": "-11.0662",
+                    "longitude": "65.0291"
+                },
+                "timezone": {
+                    "offset": "-1:00",
+                    "description": "Azores, Cape Verde Islands"
+                }
+            },
+            "email": "lucrecia.sales@example.com",
+            "dob": {
+                "date": "1981-10-04T04:01:36.970Z",
+                "age": 40
+            },
+            "phone": "(15) 7036-9427",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/38.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/38.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/38.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Mauro",
+                "last": "da Cruz"
+            },
+            "location": {
+                "street": {
+                    "number": 7409,
+                    "name": "Rua São Sebastiao "
+                },
+                "city": "Maracanaú",
+                "state": "Maranhão",
+                "country": "Brazil",
+                "postcode": 60283,
+                "coordinates": {
+                    "latitude": "6.5554",
+                    "longitude": "108.6988"
+                },
+                "timezone": {
+                    "offset": "+4:30",
+                    "description": "Kabul"
+                }
+            },
+            "email": "mauro.dacruz@example.com",
+            "dob": {
+                "date": "1966-12-24T23:08:50.823Z",
+                "age": 55
+            },
+            "phone": "(79) 8231-4420",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/6.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/6.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/6.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Mrs",
+                "first": "Ubirani",
+                "last": "Cardoso"
+            },
+            "location": {
+                "street": {
+                    "number": 6900,
+                    "name": "Rua São Francisco "
+                },
+                "city": "Codó",
+                "state": "Paraná",
+                "country": "Brazil",
+                "postcode": 73554,
+                "coordinates": {
+                    "latitude": "-86.9769",
+                    "longitude": "75.0135"
+                },
+                "timezone": {
+                    "offset": "+9:00",
+                    "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+                }
+            },
+            "email": "ubirani.cardoso@example.com",
+            "dob": {
+                "date": "1971-09-22T17:26:16.260Z",
+                "age": 50
+            },
+            "phone": "(24) 5555-3976",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/14.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/14.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/14.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Lena",
+                "last": "Rocha"
+            },
+            "location": {
+                "street": {
+                    "number": 8537,
+                    "name": "Rua Três"
+                },
+                "city": "São Luís",
+                "state": "Sergipe",
+                "country": "Brazil",
+                "postcode": 92996,
+                "coordinates": {
+                    "latitude": "-10.8611",
+                    "longitude": "12.7414"
+                },
+                "timezone": {
+                    "offset": "+5:45",
+                    "description": "Kathmandu"
+                }
+            },
+            "email": "lena.rocha@example.com",
+            "dob": {
+                "date": "1975-12-28T23:20:19.713Z",
+                "age": 46
+            },
+            "phone": "(58) 1561-1039",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/49.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/49.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/49.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Mrs",
+                "first": "Lícia",
+                "last": "Cardoso"
+            },
+            "location": {
+                "street": {
+                    "number": 9749,
+                    "name": "Rua Belo Horizonte "
+                },
+                "city": "Porto Velho",
+                "state": "Alagoas",
+                "country": "Brazil",
+                "postcode": 44977,
+                "coordinates": {
+                    "latitude": "5.9601",
+                    "longitude": "76.3642"
+                },
+                "timezone": {
+                    "offset": "+4:30",
+                    "description": "Kabul"
+                }
+            },
+            "email": "licia.cardoso@example.com",
+            "dob": {
+                "date": "1995-11-08T20:03:36.087Z",
+                "age": 26
+            },
+            "phone": "(23) 6216-2364",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/51.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/51.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/51.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Mrs",
+                "first": "Lice",
+                "last": "Dias"
+            },
+            "location": {
+                "street": {
+                    "number": 2842,
+                    "name": "Travessa dos Açorianos"
+                },
+                "city": "Marituba",
+                "state": "Maranhão",
+                "country": "Brazil",
+                "postcode": 59475,
+                "coordinates": {
+                    "latitude": "-23.0736",
+                    "longitude": "26.1721"
+                },
+                "timezone": {
+                    "offset": "-10:00",
+                    "description": "Hawaii"
+                }
+            },
+            "email": "lice.dias@example.com",
+            "dob": {
+                "date": "1994-06-25T22:59:37.729Z",
+                "age": 27
+            },
+            "phone": "(64) 1501-1147",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/14.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/14.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/14.jpg"
+            },
+            "nat": "BR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Mrs",
+                "first": "Ana",
+                "last": "Silveira"
+            },
+            "location": {
+                "street": {
+                    "number": 7028,
+                    "name": "Rua Vinte E Um"
+                },
+                "city": "Luziânia",
+                "state": "Pará",
+                "country": "Brazil",
+                "postcode": 59672,
+                "coordinates": {
+                    "latitude": "-84.9086",
+                    "longitude": "31.7024"
+                },
+                "timezone": {
+                    "offset": "-6:00",
+                    "description": "Central Time (US & Canada), Mexico City"
+                }
+            },
+            "email": "ana.silveira@example.com",
+            "dob": {
+                "date": "1958-04-05T09:51:29.868Z",
+                "age": 63
+            },
+            "phone": "(60) 8145-2521",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/39.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/39.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/39.jpg"
+            },
+            "nat": "BR"
+        }
+    ],
+    "info": {
+        "seed": "abc",
+        "results": 50,
+        "page": 1,
+        "version": "1.3"
+    }
+}
