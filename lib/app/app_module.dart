@@ -1,8 +1,9 @@
-import 'app_controller.dart';
-import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_mobile_challenge_2021/app/app_widget.dart';
-import 'package:flutter_mobile_challenge_2021/app/modules/home/home_module.dart';
+import 'package:flutter_modular/flutter_modular.dart';
+
+import 'app_controller.dart';
+import 'app_widget.dart';
+import 'modules/splash_screen/splash_screen_module.dart';
 
 class AppModule extends MainModule {
   @override
@@ -12,7 +13,7 @@ class AppModule extends MainModule {
 
   @override
   List<ModularRouter> get routers => [
-        ModularRouter(Modular.initialRoute, module: HomeModule()),
+        ModularRouter(Modular.initialRoute, module: SplashScreenModule()),
       ];
 
   @override
