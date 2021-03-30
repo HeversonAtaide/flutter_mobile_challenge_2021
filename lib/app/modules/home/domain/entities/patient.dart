@@ -1,19 +1,20 @@
-import 'Id.dart';
-import 'dob.dart';
-import 'location.dart';
-import 'name.dart';
-import 'picture.dart';
+import 'package:flutter_mobile_challenge_2021/app/modules/home/infra/models/id_model.dart';
+
+import '../../infra/models/dob_model.dart';
+import '../../infra/models/location_model.dart';
+import '../../infra/models/name_model.dart';
+import '../../infra/models/picture_model.dart';
 
 class Patient {
-  final Id id;
-  final Name name;
+  final IdModel id;
+  final NameModel name;
   final String gender;
   final String phone;
-  final Dob dob;
+  final DobModel dob;
   final String email;
   final String nat;
-  final Location location;
-  final Picture picture;
+  final LocationModel location;
+  final PictureModel picture;
 
   Patient(
     this.id,
