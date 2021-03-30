@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_mobile_challenge_2021/core/themes/app_colors.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 import 'home_controller.dart';
@@ -20,8 +21,8 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Column(
-        children: <Widget>[],
+      body: Container(
+        color: AppColors.white,
       ),
     );
   }

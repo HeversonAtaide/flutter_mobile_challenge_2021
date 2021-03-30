@@ -3,6 +3,7 @@ import 'package:flutter_modular/flutter_modular.dart';
 import 'package:mobx/mobx.dart';
 
 import '../../../../core/themes/app_colors.dart';
+import '../../home/home_module.dart';
 
 part 'bottom_navigation_bar_controller.g.dart';
 
@@ -31,11 +32,8 @@ abstract class _BottomNavigationBarControllerBase with Store {
   Future<void> _init() async {
     setCurrentPage(0);
     List<Widget> list = [
-      // RouterOutlet(
-      //   module: HomeModule(),
-      // ),
-      Container(
-        color: AppColors.white,
+      RouterOutlet(
+        module: HomeModule(),
       ),
       Container(
         color: AppColors.yellow,
