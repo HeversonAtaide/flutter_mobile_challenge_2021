@@ -1,5 +1,5 @@
-import 'package:mobx/mobx.dart';
 import 'package:flutter_modular/flutter_modular.dart';
+import 'package:mobx/mobx.dart';
 
 part 'splash_screen_controller.g.dart';
 
@@ -8,11 +8,12 @@ class SplashScreenController = _SplashScreenControllerBase
     with _$SplashScreenController;
 
 abstract class _SplashScreenControllerBase with Store {
-  @observable
-  int value = 0;
+  _SplashScreenControllerBase() {
+    _init();
+  }
 
-  @action
-  void increment() {
-    value++;
+  Future<void> _init() async {
+    await Future.delayed(Duration(seconds: 1), () async {});
+    await Modular.to.popAndPushNamed('/bottom_navigation_bar');
   }
 }
