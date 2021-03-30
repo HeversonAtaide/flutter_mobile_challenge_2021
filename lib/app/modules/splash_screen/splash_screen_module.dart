@@ -1,12 +1,12 @@
-import 'presenter/splash_screen_controller.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
-import 'presenter/splash_screen_page.dart';
+import 'presenter/page/splash_screen_page.dart';
+import 'presenter/splash_screen_controller.dart';
 
 class SplashScreenModule extends ChildModule {
   @override
   List<Bind> get binds => [
-        $SplashScreenController,
+        Bind((i) => SplashScreenController()),
       ];
 
   @override

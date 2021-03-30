@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mobile_challenge_2021/core/screen_utils.dart';
+import '../../../../../core/screen_utils.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'splash_screen_controller.dart';
+import '../splash_screen_controller.dart';
 
 class SplashScreenPage extends StatefulWidget {
   final String title;
@@ -22,7 +22,9 @@ class _SplashScreenPageState
       body: Container(
         width: ScreenUtils.screenWidth,
         height: ScreenUtils.screenHeight,
-        child: Center(child: Image.asset('assets/images/logo.png'),),
+        child: Center(
+          child: Image.asset('assets/images/logo.png'),
+        ),
       ),
     );
   }
