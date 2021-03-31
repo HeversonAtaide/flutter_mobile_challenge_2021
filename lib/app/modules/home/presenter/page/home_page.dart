@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mobile_challenge_2021/core/themes/app_colors.dart';
-import 'package:flutter_mobile_challenge_2021/core/widgets/failure_widget.dart';
+import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
+import '../../../../../core/themes/app_colors.dart';
 import '../home_controller.dart';
-import 'components/home_app_bar_widget.dart';
-import 'components/patient_list/patient_list_content_widget.dart';
-import 'components/search_bar_widget.dart';
+import 'components/app_bar/home_app_bar_widget.dart';
+import 'home_page_content.dart';
+import 'home_page_error.dart';
+import 'home_page_loading.dart';
 
 class HomePage extends StatefulWidget {
   final String title;
@@ -17,8 +18,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends ModularState<HomePage, HomeController> {
-  //use 'controller' variable to access controller
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,17 +26,20 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
         child: Column(
           children: [
             HomeAppBarWidget(),
-            SearchBarWidget(),
             Expanded(
                 child: Padding(
               padding: const EdgeInsets.only(left: 8, top: 8, right: 8),
-              child: controller.error != null
-                  ? FailureWidget(controller.error, controller.fetchData)
-                  : PatientListContentWidget(),
+              child: Observer(
+                builder: (_) {
+                  controller.isLoading;
+                  return controller.error != null
+                      ? HomePageError()
+                      : controller.isLoading && controller.patients.isEmpty
+                          ? HomePageLoading()
+                          : HomePageContent();
+                },
+              ),
             )),
-            Container(
-              color: AppColors.white,
-            ),
           ],
         ),
       ),

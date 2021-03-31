@@ -12,6 +12,7 @@ class PatientServerDatasourceImpl implements PatientServerDatasource {
   @override
   Future<List<PatientModel>> getPatients(
       String seed, int page, int results) async {
+    // throw Exception();
     dynamic jsonResults = '';
 
     final Map<String, dynamic> _queryParameters = <String, dynamic>{};

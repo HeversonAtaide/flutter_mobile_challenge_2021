@@ -8,8 +8,8 @@ import 'package:mobx/mobx.dart';
 import '../../../../core/consts/network_config.dart';
 import '../../../../core/failures/failures.dart';
 import '../domain/entities/patient.dart';
+import '../domain/entities/search_by_enum.dart';
 import '../domain/usecases/get_patients_usecase.dart';
-import 'page/components/search_by_enum.dart';
 
 part 'home_controller.g.dart';
 
@@ -80,6 +80,12 @@ abstract class _HomeControllerBase with Store {
   @computed
   ObservableList<Patient> get patients => _patients;
 
+  @action
+  clearPatients() {
+    _patients.clear();
+    _patients = ObservableList();
+  }
+
   @observable
   bool _isLoading;
 
@@ -130,7 +136,7 @@ abstract class _HomeControllerBase with Store {
   @action
   Future refreshList() async {
     _page = 1;
-    _patients.clear();
+    clearPatients();
     clearSearchResult();
     clearTextEditingController();
     resetGenderFilter();

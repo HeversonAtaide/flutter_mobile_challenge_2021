@@ -9,7 +9,6 @@ import '../../../../../../../core/utils.dart';
 import '../../../../domain/entities/patient.dart';
 import '../../../home_controller.dart';
 import 'patient_list_empty_widget.dart';
-import 'patient_list_loading_widget.dart';
 
 class PatientListContentWidget extends StatefulWidget {
   @override
@@ -39,7 +38,7 @@ class _PatientListContentWidgetState extends State<PatientListContentWidget> {
         RefreshIndicator(
           onRefresh: () async {
             await _homeController.refreshList();
-            setState(() {});
+            //setState(() {});
           },
           backgroundColor: AppColors.white,
           color: AppColors.green,
@@ -50,9 +49,7 @@ class _PatientListContentWidgetState extends State<PatientListContentWidget> {
               return _homeController.searchResult.length != 0 ||
                       _homeController.textEditingController.text.isNotEmpty
                   ? _buildList(_homeController.searchResult, false)
-                  : _homeController.patients.isEmpty
-                      ? PatientListLoadingWidget()
-                      : _buildList(_homeController.patients, true);
+                  : _buildList(_homeController.patients, true);
             },
           ),
         ),
@@ -112,7 +109,7 @@ class _PatientListContentWidgetState extends State<PatientListContentWidget> {
                     canLoadmore) {
                   if (!_homeController.isLoading) {
                     await _homeController.loadNextPage();
-                    setState(() {});
+                    //setState(() {});
                   }
                 }
               });
@@ -276,4 +273,6 @@ class _PatientListContentWidgetState extends State<PatientListContentWidget> {
               );
             });
   }
+
+  
 }

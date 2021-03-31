@@ -1,21 +1,18 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
-import 'package:flutter_mobile_challenge_2021/app/modules/home/presenter/page/components/search_by_enum.dart';
-import 'package:flutter_mobile_challenge_2021/core/consts/network_config.dart';
-import 'package:flutter_mobile_challenge_2021/core/themes/app_colors.dart';
-import 'package:flutter_mobile_challenge_2021/core/widgets/horizontal_divider_widget.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
-import '../../home_controller.dart';
+import '../../../../../../../core/themes/app_colors.dart';
+import '../../../../../../../core/widgets/horizontal_divider_widget.dart';
+import '../../../home_controller.dart';
+import '../../../../domain/entities/search_by_enum.dart';
 
-class SearchBarWidget extends StatefulWidget {
+class SearchBarContentWidget extends StatefulWidget {
   @override
-  _SearchBarWidgetState createState() => _SearchBarWidgetState();
+  _SearchBarContentWidgetState createState() => _SearchBarContentWidgetState();
 }
 
-class _SearchBarWidgetState extends State<SearchBarWidget> {
+class _SearchBarContentWidgetState extends State<SearchBarContentWidget> {
   HomeController _homeController = Modular.get<HomeController>();
 
   @override
@@ -23,7 +20,7 @@ class _SearchBarWidgetState extends State<SearchBarWidget> {
     return Container(
       color: AppColors.white,
       child: new Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding: const EdgeInsets.only(bottom: 8),
         child: Row(
           children: [
             Expanded(

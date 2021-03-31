@@ -1,6 +1,5 @@
 import 'package:connectivity/connectivity.dart';
 import 'package:dio/dio.dart';
-import 'package:flutter_mobile_challenge_2021/app/modules/home/presenter/page/home_page.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 import 'domain/repositories/patient_repository.dart';
@@ -9,6 +8,7 @@ import 'external/patient_server_datasource_impl.dart';
 import 'infra/datasources/patient_datasource.dart';
 import 'infra/repositories/patient_repository_impl.dart';
 import 'presenter/home_controller.dart';
+import 'presenter/page/home_page.dart';
 
 class HomeModule extends ChildModule {
   @override

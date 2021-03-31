@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mobile_challenge_2021/core/failures/failures.dart';
-import 'package:flutter_mobile_challenge_2021/core/themes/app_colors.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+
+import '../failures/failures.dart';
+import '../themes/app_colors.dart';
 
 class FailureWidget extends StatelessWidget {
   final Failure _error;
@@ -20,13 +20,11 @@ class FailureWidget extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              _error is NoInternetConnection
-                  ? 'No internet'
-                  : _error.errorMessage,
+              _error.errorMessage,
               textAlign: TextAlign.center,
               style: TextStyle(
-                color: AppColors.white,
-                fontSize: 14,
+                color: AppColors.grey,
+                fontSize: 21,
                 fontFamily: "Overpass",
                 letterSpacing: 0,
               ),
@@ -44,7 +42,7 @@ class FailureWidget extends StatelessWidget {
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: AppColors.green,
-                      fontSize: 14,
+                      fontSize: 18,
                       fontFamily: "Overpass",
                       letterSpacing: 0,
                     ),

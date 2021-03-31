@@ -5,7 +5,7 @@ abstract class Failure implements Exception {
 
 class UnknownError implements Failure {
   @override
-  String errorMessage = 'Erro desconhecido';
+  String errorMessage = 'Uh oh, something has gone wrong';
 
   @override
   printErrorOnConsole() {
@@ -15,7 +15,7 @@ class UnknownError implements Failure {
 
 class NoInternetConnection implements Failure {
   @override
-  String errorMessage = 'Sem conexão com a internet';
+  String errorMessage = 'No internet connection';
 
   @override
   printErrorOnConsole() {

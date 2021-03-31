@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mobile_challenge_2021/core/themes/app_colors.dart';
+
+import '../../../../../../../core/themes/app_colors.dart';
 
 class PatientListEmptyWidget extends StatefulWidget {
   @override
