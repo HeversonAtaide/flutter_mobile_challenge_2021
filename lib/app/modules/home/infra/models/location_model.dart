@@ -10,7 +10,7 @@ class LocationModel {
   final String city;
   final String state;
   final String country;
-  final int postcode;
+  final String postcode;
   final CoordinatesModel coordinates;
   final TimezoneModel timezone;
 
@@ -42,7 +42,7 @@ class LocationModel {
       map['city'],
       map['state'],
       map['country'],
-      map['postcode'],
+      map['postcode'].toString(),
       CoordinatesModel.fromMap(map['coordinates']),
       TimezoneModel.fromMap(map['timezone']),
     );

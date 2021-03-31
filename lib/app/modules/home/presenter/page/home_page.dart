@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mobile_challenge_2021/core/themes/app_colors.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
-import 'home_controller.dart';
+import '../home_controller.dart';
+import 'components/home_app_bar_widget.dart';
+import 'components/patient_list/patient_list_content_widget.dart';
 
 class HomePage extends StatefulWidget {
   final String title;
@@ -18,11 +20,21 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body: Container(
-        color: AppColors.white,
+      backgroundColor: AppColors.white,
+      body: SafeArea(
+        child: Column(
+          children: [
+            HomeAppBarWidget(),
+            Expanded(
+                child: Padding(
+              padding: const EdgeInsets.only(left: 8, top: 8, right: 8),
+              child: PatientListContentWidget(),
+            )),
+            Container(
+              color: AppColors.white,
+            ),
+          ],
+        ),
       ),
     );
   }

@@ -2,7 +2,7 @@ import 'dart:convert';
 
 class IdModel {
   final String name;
-  final int value;
+  final String value;
 
   IdModel(
     this.name, {

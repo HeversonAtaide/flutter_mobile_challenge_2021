@@ -9,13 +9,11 @@ abstract class Utils {
     });
   }
 
-  String formatDate(DateTime dateTime) {
+  static String formatDate(DateTime dateTime) {
     DateTime threeHoursAgo = dateTime.subtract(new Duration(hours: 3));
 
     final DateFormat dateFormatDia = DateFormat('dd/MM/yyyy');
-    final DateFormat dateFormatHora = DateFormat('HH:mm');
     final String dia = dateFormatDia.format(threeHoursAgo);
-    final String hora = dateFormatHora.format(threeHoursAgo);
-    return "$dia às $hora";
+    return "$dia";
   }
 }
