@@ -1,0 +1,4 @@
+enum SearchByEnum {
+  NameSearch,
+  NationalitySearch,
+}

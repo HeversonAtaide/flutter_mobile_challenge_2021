@@ -1,11 +1,15 @@
+import 'dart:async';
+
 import 'package:dartz/dartz.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_mobile_challenge_2021/app/modules/home/domain/entities/patient.dart';
-import 'package:flutter_mobile_challenge_2021/app/modules/home/domain/usecases/get_patients_usecase.dart';
-import 'package:flutter_mobile_challenge_2021/core/consts/network_config.dart';
-import 'package:flutter_mobile_challenge_2021/core/failures/failures.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:mobx/mobx.dart';
+
+import '../../../../core/consts/network_config.dart';
+import '../../../../core/failures/failures.dart';
+import '../domain/entities/patient.dart';
+import '../domain/usecases/get_patients_usecase.dart';
+import 'page/components/search_by_enum.dart';
 
 part 'home_controller.g.dart';
 
@@ -20,11 +24,61 @@ abstract class _HomeControllerBase with Store {
   final double _cardHeight = 148;
   double get cardHeight => _cardHeight;
 
+  String _searchText;
+
   @observable
-  List<Patient> _patients;
+  SearchByEnum _searchByEnum;
 
   @computed
-  List<Patient> get patients => _patients;
+  SearchByEnum get searchByEnum => _searchByEnum;
+
+  @action
+  setSearchFilter(SearchByEnum value) {
+    _searchByEnum = value;
+    onSearchTextChanged(_searchText);
+  }
+
+  @observable
+  String _genderFilter;
+
+  @computed
+  String get genderFilter => _genderFilter;
+
+  @action
+  setGenderFilter(String value) => _genderFilter = value;
+
+  @action
+  resetGenderFilter() => _genderFilter = "";
+
+  @observable
+  TextEditingController _textEditingController;
+
+  @computed
+  TextEditingController get textEditingController => _textEditingController;
+
+  @action
+  clearTextEditingController() => _textEditingController.clear();
+
+  @observable
+  ObservableList<Patient> _searchResult;
+
+  @computed
+  ObservableList<Patient> get searchResult => _searchResult;
+
+  @action
+  addSearchResult(Patient value) => _searchResult.add(value);
+
+  @action
+  clearSearchResult() {
+    _searchResult.clear();
+    _searchResult = ObservableList();
+  }
+
+  @observable
+  ObservableList<Patient> _patients;
+
+  @computed
+  ObservableList<Patient> get patients => _patients;
 
   @observable
   bool _isLoading;
@@ -44,11 +98,16 @@ abstract class _HomeControllerBase with Store {
 
   @action
   Future<void> _init() async {
+    _searchText = '';
+    _textEditingController = new TextEditingController();
     _error = null;
     _isLoading = false;
+    resetGenderFilter();
+    _searchByEnum = SearchByEnum.NameSearch;
 
     _page = 1;
-    _patients = [];
+    _patients = ObservableList();
+    _searchResult = ObservableList();
 
     await fetchData();
   }
@@ -72,6 +131,11 @@ abstract class _HomeControllerBase with Store {
   Future refreshList() async {
     _page = 1;
     _patients.clear();
+    clearSearchResult();
+    clearTextEditingController();
+    resetGenderFilter();
+    setSearchFilter(SearchByEnum.NameSearch);
+    _searchText = '';
     await fetchData();
   }
 
@@ -79,5 +143,44 @@ abstract class _HomeControllerBase with Store {
   Future loadNextPage() async {
     _page++;
     await fetchData();
+  }
+
+  @action
+  Future onSearchTextChanged(String text) async {
+    _searchText = text;
+    clearSearchResult();
+    if (text.isEmpty) {
+      return;
+    }
+    text = text.toLowerCase();
+    switch (_searchByEnum) {
+      case SearchByEnum.NationalitySearch:
+        patients.forEach((patient) {
+          if (patient.nat.toLowerCase().contains(text))
+            addSearchResult(patient);
+        });
+        break;
+
+      case SearchByEnum.NameSearch:
+
+      default:
+        patients.forEach((patient) {
+          if (patient.name.first.toLowerCase().contains(text) ||
+              patient.name.last.toLowerCase().contains(text))
+            addSearchResult(patient);
+        });
+        break;
+    }
+  }
+
+  @action
+  applyGenderFilter(List<Patient> list) {
+    if (_genderFilter == null || _genderFilter == '') {
+      return list;
+    } else {
+      return list
+          .where((element) => element.gender.toLowerCase() == _genderFilter)
+          .toList();
+    }
   }
 }
