@@ -2,6 +2,5 @@ abstract class NetworkConfig {
   static String _urlBase = 'https://randomuser.me/api/';
   static String urlPatient = '${_urlBase}1.3/';
   static String seed = 'abc';
-  // static int pageResults = 50;
-  static int pageResults = 5;
+  static int pageResults = 50;
 }

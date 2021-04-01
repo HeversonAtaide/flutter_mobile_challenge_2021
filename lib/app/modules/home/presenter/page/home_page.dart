@@ -31,7 +31,6 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
               padding: const EdgeInsets.only(left: 8, top: 8, right: 8),
               child: Observer(
                 builder: (_) {
-                  controller.isLoading;
                   return controller.error != null
                       ? HomePageError()
                       : controller.isLoading && controller.patients.isEmpty

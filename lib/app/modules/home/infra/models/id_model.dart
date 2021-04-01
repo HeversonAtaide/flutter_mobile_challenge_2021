@@ -19,7 +19,7 @@ class IdModel {
   factory IdModel.fromMap(Map<String, dynamic> map) {
     return IdModel(
       map['name'],
-      value: map['value'],
+      value: map['value'] == null ? 'no data' : map['value'],
     );
   }
 

@@ -27,7 +27,7 @@ class PatientRepositoryImpl implements PatientRepository {
             await _patientServerDatasource.getPatients(seed, page, results);
         return Right(_result);
       } catch (e) {
-        if (e == Failure) {
+        if (e is Failure) {
           return Left(e);
         } else {
           return Left(UnknownError());

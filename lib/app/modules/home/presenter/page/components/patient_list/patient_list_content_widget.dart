@@ -38,7 +38,6 @@ class _PatientListContentWidgetState extends State<PatientListContentWidget> {
         RefreshIndicator(
           onRefresh: () async {
             await _homeController.refreshList();
-            //setState(() {});
           },
           backgroundColor: AppColors.white,
           color: AppColors.green,
@@ -109,7 +108,6 @@ class _PatientListContentWidgetState extends State<PatientListContentWidget> {
                     canLoadmore) {
                   if (!_homeController.isLoading) {
                     await _homeController.loadNextPage();
-                    //setState(() {});
                   }
                 }
               });
@@ -119,125 +117,119 @@ class _PatientListContentWidgetState extends State<PatientListContentWidget> {
                   DelayedDisplay(
                     slidingBeginOffset: Offset(0.35, 0),
                     delay: Duration(milliseconds: 100),
-                    child: Container(
-                      height: _homeController.cardHeight,
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(5),
-                          border: Border.all(color: AppColors.green)),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Row(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Padding(
-                                padding:
-                                    const EdgeInsets.only(left: 16, top: 16),
-                                child: Container(
-                                  height: 80,
-                                  width: 80,
-                                  decoration: new BoxDecoration(
-                                      color: AppColors.grey,
-                                      shape: BoxShape.circle,
-                                      image: new DecorationImage(
-                                          fit: BoxFit.fill,
-                                          image: new NetworkImage(
-                                              filteredList[index]
-                                                  .picture
-                                                  .large))),
-                                ),
-                              ),
-                              Expanded(
-                                child: Padding(
-                                  padding: const EdgeInsets.only(
-                                      left: 16, top: 16, right: 16),
-                                  child: Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    children: [
-                                      Column(
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: [
-                                          Text(
-                                            filteredList[index].name.title,
-                                            textAlign: TextAlign.left,
-                                            style: TextStyle(
-                                              color: AppColors.grey,
-                                              fontSize: 15,
-                                              fontFamily: "Overpass",
-                                              letterSpacing: 0,
-                                            ),
-                                          ),
-                                          Text(
-                                            '${filteredList[index].name.first} ${filteredList[index].name.last}',
-                                            textAlign: TextAlign.left,
-                                            style: TextStyle(
-                                              color: AppColors.primaryBlue,
-                                              fontSize: 21,
-                                              fontFamily: "Overpass",
-                                              letterSpacing: 0,
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                      Row(
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.spaceBetween,
-                                        children: [
-                                          Text(
-                                            filteredList[index].gender,
-                                            textAlign: TextAlign.left,
-                                            style: TextStyle(
-                                              color: AppColors.primaryBlue,
-                                              fontSize: 17,
-                                              fontFamily: "Overpass",
-                                              letterSpacing: 0,
-                                            ),
-                                          ),
-                                          Text(
-                                            Utils.formatDate(
-                                                filteredList[index].dob.date),
-                                            textAlign: TextAlign.left,
-                                            style: TextStyle(
-                                              color: AppColors.primaryBlue,
-                                              fontSize: 17,
-                                              fontFamily: "Overpass",
-                                              letterSpacing: 0,
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                      Text(
-                                        filteredList[index].nat,
-                                        textAlign: TextAlign.left,
-                                        style: TextStyle(
-                                          color: AppColors.primaryBlue,
-                                          fontSize: 17,
-                                          fontFamily: "Overpass",
-                                          letterSpacing: 0,
-                                        ),
-                                      ),
-                                    ],
+                    child: InkWell(
+                      onTap: () {
+                        FocusScope.of(context).unfocus();
+                        _settingModalPacient(context, filteredList[index]);
+                      },
+                      child: Container(
+                        height: _homeController.cardHeight,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(5),
+                            border: Border.all(color: AppColors.green)),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Row(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Padding(
+                                  padding:
+                                      const EdgeInsets.only(left: 16, top: 16),
+                                  child: Container(
+                                    height: 80,
+                                    width: 80,
+                                    decoration: new BoxDecoration(
+                                        color: AppColors.grey,
+                                        shape: BoxShape.circle,
+                                        image: new DecorationImage(
+                                            fit: BoxFit.fill,
+                                            image: new NetworkImage(
+                                                filteredList[index]
+                                                    .picture
+                                                    .large))),
                                   ),
                                 ),
-                              )
-                            ],
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.only(bottom: 16),
-                            child: Text(
-                              'See details',
-                              textAlign: TextAlign.left,
-                              style: TextStyle(
-                                color: AppColors.green,
-                                fontSize: 17,
-                                fontFamily: "Overpass",
-                                letterSpacing: 0,
+                                Expanded(
+                                  child: Padding(
+                                    padding: const EdgeInsets.only(
+                                        left: 16, top: 16, right: 16),
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Column(
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
+                                          children: [
+                                            Text(
+                                              filteredList[index].name.title,
+                                              style: TextStyle(
+                                                color: AppColors.grey,
+                                                fontSize: 15,
+                                                fontFamily: "Overpass",
+                                              ),
+                                            ),
+                                            Text(
+                                              '${filteredList[index].name.first} ${filteredList[index].name.last}',
+                                              style: TextStyle(
+                                                color: AppColors.primaryBlue,
+                                                fontSize: 21,
+                                                fontFamily: "Overpass",
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                        Row(
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            Text(
+                                              filteredList[index].gender,
+                                              style: TextStyle(
+                                                color: AppColors.primaryBlue,
+                                                fontSize: 17,
+                                                fontFamily: "Overpass",
+                                              ),
+                                            ),
+                                            Text(
+                                              Utils.formatDate(
+                                                  filteredList[index].dob.date),
+                                              style: TextStyle(
+                                                color: AppColors.primaryBlue,
+                                                fontSize: 17,
+                                                fontFamily: "Overpass",
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                        Text(
+                                          filteredList[index].nat,
+                                          style: TextStyle(
+                                            color: AppColors.primaryBlue,
+                                            fontSize: 17,
+                                            fontFamily: "Overpass",
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                )
+                              ],
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 16),
+                              child: Text(
+                                'See details',
+                                style: TextStyle(
+                                  color: AppColors.green,
+                                  fontSize: 17,
+                                  fontFamily: "Overpass",
+                                ),
                               ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
                   ),
@@ -258,12 +250,10 @@ class _PatientListContentWidgetState extends State<PatientListContentWidget> {
                             ),
                             Text(
                               'Loading more...',
-                              textAlign: TextAlign.left,
                               style: TextStyle(
                                 color: AppColors.green,
                                 fontSize: 21,
                                 fontFamily: "Overpass",
-                                letterSpacing: 0,
                               ),
                             ),
                           ],
@@ -274,5 +264,292 @@ class _PatientListContentWidgetState extends State<PatientListContentWidget> {
             });
   }
 
-  
+  void _settingModalPacient(context, Patient patient) {
+    showModalBottomSheet(
+        backgroundColor: AppColors.transparent,
+        isScrollControlled: true,
+        context: context,
+        builder: (BuildContext bc) {
+          return Wrap(
+            children: [
+              Stack(
+                children: [
+                  Column(
+                    children: [
+                      Container(
+                        height: 40,
+                        width: double.infinity,
+                        color: AppColors.transparent,
+                      ),
+                      Container(
+                        color: AppColors.white,
+                        child: Column(
+                          children: [
+                            Padding(
+                              padding:
+                                  const EdgeInsets.only(top: 16, right: 16),
+                              child: Align(
+                                alignment: Alignment.topRight,
+                                child: IconButton(
+                                  icon: new Icon(
+                                    Icons.close,
+                                    color: AppColors.green,
+                                  ),
+                                  onPressed: () async {
+                                    Navigator.pop(context);
+                                  },
+                                ),
+                              ),
+                            ),
+                            Text(
+                              '${patient.name.first} ${patient.name.last}',
+                              style: TextStyle(
+                                color: AppColors.primaryBlue,
+                                fontSize: 21,
+                                fontFamily: "Overpass",
+                              ),
+                            ),
+                            SizedBox(
+                              height: 24,
+                            ),
+                            Container(
+                              height: 56,
+                              child: Row(
+                                children: [
+                                  SizedBox(
+                                    width: 8,
+                                  ),
+                                  Container(
+                                      height: 40,
+                                      width: 40,
+                                      child: Icon(
+                                        Icons.email,
+                                        color: AppColors.orange,
+                                      )),
+                                  SizedBox(
+                                    width: 16,
+                                  ),
+                                  Text(
+                                    patient.email,
+                                    style: TextStyle(
+                                      color: AppColors.primaryBlue,
+                                      fontSize: 16,
+                                      fontFamily: "Overpass",
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Container(
+                              height: 56,
+                              child: Row(
+                                children: [
+                                  SizedBox(
+                                    width: 8,
+                                  ),
+                                  Container(
+                                      height: 40,
+                                      width: 40,
+                                      child: Icon(
+                                        Icons.person,
+                                        color: AppColors.orange,
+                                      )),
+                                  SizedBox(
+                                    width: 16,
+                                  ),
+                                  Text(
+                                    patient.gender,
+                                    style: TextStyle(
+                                      color: AppColors.primaryBlue,
+                                      fontSize: 16,
+                                      fontFamily: "Overpass",
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Container(
+                              height: 56,
+                              child: Row(
+                                children: [
+                                  SizedBox(
+                                    width: 8,
+                                  ),
+                                  Container(
+                                      height: 40,
+                                      width: 40,
+                                      child: Icon(
+                                        Icons.date_range,
+                                        color: AppColors.orange,
+                                      )),
+                                  SizedBox(
+                                    width: 16,
+                                  ),
+                                  Text(
+                                    Utils.formatDate(patient.dob.date),
+                                    style: TextStyle(
+                                      color: AppColors.primaryBlue,
+                                      fontSize: 16,
+                                      fontFamily: "Overpass",
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Container(
+                              height: 56,
+                              child: Row(
+                                children: [
+                                  SizedBox(
+                                    width: 8,
+                                  ),
+                                  Container(
+                                      height: 40,
+                                      width: 40,
+                                      child: Icon(
+                                        Icons.phone,
+                                        color: AppColors.orange,
+                                      )),
+                                  SizedBox(
+                                    width: 16,
+                                  ),
+                                  Text(
+                                    patient.phone,
+                                    style: TextStyle(
+                                      color: AppColors.primaryBlue,
+                                      fontSize: 16,
+                                      fontFamily: "Overpass",
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Container(
+                              height: 56,
+                              child: Row(
+                                children: [
+                                  SizedBox(
+                                    width: 8,
+                                  ),
+                                  Container(
+                                      height: 40,
+                                      width: 40,
+                                      child: Icon(
+                                        Icons.flag,
+                                        color: AppColors.orange,
+                                      )),
+                                  SizedBox(
+                                    width: 16,
+                                  ),
+                                  Text(
+                                    patient.nat,
+                                    style: TextStyle(
+                                      color: AppColors.primaryBlue,
+                                      fontSize: 16,
+                                      fontFamily: "Overpass",
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Container(
+                              height: 72,
+                              child: Row(
+                                children: [
+                                  SizedBox(
+                                    width: 8,
+                                  ),
+                                  Container(
+                                      height: 40,
+                                      width: 40,
+                                      child: Icon(
+                                        Icons.place,
+                                        color: AppColors.orange,
+                                      )),
+                                  SizedBox(
+                                    width: 16,
+                                  ),
+                                  Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        '${patient.location.street.name}, ${patient.location.street.number}',
+                                        style: TextStyle(
+                                          color: AppColors.primaryBlue,
+                                          fontSize: 16,
+                                          fontFamily: "Overpass",
+                                        ),
+                                      ),
+                                      Text(
+                                        '${patient.location.postcode}, ${patient.location.city}, ${patient.location.state}, ${patient.location.country}',
+                                        style: TextStyle(
+                                          color: AppColors.grey,
+                                          fontSize: 12,
+                                          fontFamily: "Overpass",
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Container(
+                              height: 56,
+                              child: Row(
+                                children: [
+                                  SizedBox(
+                                    width: 8,
+                                  ),
+                                  Container(
+                                    height: 40,
+                                    width: 40,
+                                    child: Center(
+                                      child: Icon(
+                                        Icons.assignment_ind_rounded,
+                                        color: AppColors.orange,
+                                      ),
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    width: 16,
+                                  ),
+                                  Text(
+                                    patient.id.value,
+                                    style: TextStyle(
+                                      color: AppColors.primaryBlue,
+                                      fontSize: 16,
+                                      fontFamily: "Overpass",
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            SizedBox(
+                              height: 8,
+                            )
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                  Align(
+                    alignment: Alignment.topCenter,
+                    child: Container(
+                      height: 80,
+                      width: 80,
+                      decoration: new BoxDecoration(
+                          shape: BoxShape.circle,
+                          image: new DecorationImage(
+                              fit: BoxFit.fill,
+                              image: new NetworkImage(patient.picture.large))),
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          );
+        });
+  }
 }
