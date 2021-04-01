@@ -1,3 +1,5 @@
+import 'package:connectivity/connectivity.dart';
+import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
@@ -9,7 +11,20 @@ import 'modules/splash_screen/splash_screen_module.dart';
 class AppModule extends MainModule {
   @override
   List<Bind> get binds => [
+        // controllers
         $AppController,
+
+        // stores
+
+        // usecases
+
+        // repositories
+
+        // datasourcers
+
+        // others
+        Bind((i) => Connectivity()),
+        Bind((i) => Dio()),
       ];
 
   @override
