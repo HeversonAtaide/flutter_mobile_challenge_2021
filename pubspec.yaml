@@ -33,6 +33,7 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  url_launcher: 
   shimmer: ^1.1.2
   delayed_display: ^1.1.0
   intl: ^0.16.1

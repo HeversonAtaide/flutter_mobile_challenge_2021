@@ -2,6 +2,7 @@ import 'package:delayed_display/delayed_display.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_modular/flutter_modular.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../../../../core/consts/network_config.dart';
 import '../../../../../../../core/themes/app_colors.dart';
@@ -396,32 +397,37 @@ class _PatientListContentWidgetState extends State<PatientListContentWidget> {
                                 ],
                               ),
                             ),
-                            Container(
-                              height: 56,
-                              child: Row(
-                                children: [
-                                  SizedBox(
-                                    width: 8,
-                                  ),
-                                  Container(
-                                      height: 40,
-                                      width: 40,
-                                      child: Icon(
-                                        Icons.phone,
-                                        color: AppColors.orange,
-                                      )),
-                                  SizedBox(
-                                    width: 16,
-                                  ),
-                                  Text(
-                                    patient.phone,
-                                    style: TextStyle(
-                                      color: AppColors.primaryBlue,
-                                      fontSize: 16,
-                                      fontFamily: "Overpass",
+                            InkWell(
+                              onTap: () {
+                                launch("tel://${patient.phone}");
+                              },
+                              child: Container(
+                                height: 56,
+                                child: Row(
+                                  children: [
+                                    SizedBox(
+                                      width: 8,
                                     ),
-                                  ),
-                                ],
+                                    Container(
+                                        height: 40,
+                                        width: 40,
+                                        child: Icon(
+                                          Icons.phone,
+                                          color: AppColors.orange,
+                                        )),
+                                    SizedBox(
+                                      width: 16,
+                                    ),
+                                    Text(
+                                      patient.phone,
+                                      style: TextStyle(
+                                        color: AppColors.secondBlue,
+                                        fontSize: 16,
+                                        fontFamily: "Overpass",
+                                      ),
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
                             Container(
