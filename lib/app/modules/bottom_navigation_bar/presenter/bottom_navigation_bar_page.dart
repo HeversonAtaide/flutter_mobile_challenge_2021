@@ -45,10 +45,10 @@ class _BottomNavigationBarPageState
             children: controller.routerBottomMenuList,
           ),
           Align(
-            alignment: Alignment.bottomCenter,
+            alignment: Alignment.topCenter,
             child: ConnectionStatusBar(
               endOffset: const Offset(0.0, 0.0),
-              beginOffset: const Offset(0.0, 1.0),
+              beginOffset: const Offset(0.0, -1.0),
               title: const Text(
                 'Sem conexão com a internet',
                 textAlign: TextAlign.left,

@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:connectivity/connectivity.dart';
 import 'package:dartz/dartz.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_modular/flutter_modular.dart';
@@ -116,6 +117,18 @@ abstract class _HomeControllerBase with Store {
     _searchResult = ObservableList();
 
     await fetchData();
+
+    Connectivity()
+        .onConnectivityChanged
+        .listen((ConnectivityResult result) async {
+      if (result != ConnectivityResult.none &&
+          _error != null &&
+          _error is NoInternetConnection &&
+          !isLoading &&
+          _patients.isEmpty) {
+        await fetchData();
+      }
+    });
   }
 
   @action

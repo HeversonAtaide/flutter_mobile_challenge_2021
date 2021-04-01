@@ -34,7 +34,7 @@ class PatientRepositoryImpl implements PatientRepository {
         }
       }
     } else {
-      throw NoInternetConnection();
+      return Left(NoInternetConnection());
     }
   }
 }
