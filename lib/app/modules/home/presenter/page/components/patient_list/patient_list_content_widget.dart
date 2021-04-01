@@ -1,5 +1,6 @@
 import 'package:delayed_display/delayed_display.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_mobile_challenge_2021/app/modules/bottom_sheet_maps/bottom_sheet_maps.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -458,47 +459,61 @@ class _PatientListContentWidgetState extends State<PatientListContentWidget> {
                                 ],
                               ),
                             ),
-                            Container(
-                              height: 72,
-                              child: Row(
-                                children: [
-                                  SizedBox(
-                                    width: 8,
-                                  ),
-                                  Container(
-                                      height: 40,
-                                      width: 40,
-                                      child: Icon(
-                                        Icons.place,
-                                        color: AppColors.orange,
-                                      )),
-                                  SizedBox(
-                                    width: 16,
-                                  ),
-                                  Column(
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    children: [
-                                      Text(
-                                        '${patient.location.street.name}, ${patient.location.street.number}',
-                                        style: TextStyle(
-                                          color: AppColors.primaryBlue,
-                                          fontSize: 16,
-                                          fontFamily: "Overpass",
+                            InkWell(
+                              onTap: () {
+                                BottomSheetMaps.show(
+                                  context: context,
+                                  title:
+                                      '${patient.name.first} ${patient.name.last}',
+                                  latitude:
+                                      patient.location.coordinates.latitude,
+                                  longitude:
+                                      patient.location.coordinates.longitude,
+                                );
+                              },
+                              child: Container(
+                                height: 72,
+                                child: Row(
+                                  children: [
+                                    SizedBox(
+                                      width: 8,
+                                    ),
+                                    Container(
+                                        height: 40,
+                                        width: 40,
+                                        child: Icon(
+                                          Icons.place,
+                                          color: AppColors.orange,
+                                        )),
+                                    SizedBox(
+                                      width: 16,
+                                    ),
+                                    Column(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          '${patient.location.street.name}, ${patient.location.street.number}',
+                                          style: TextStyle(
+                                            color: AppColors.secondBlue,
+                                            fontSize: 16,
+                                            fontFamily: "Overpass",
+                                          ),
                                         ),
-                                      ),
-                                      Text(
-                                        '${patient.location.postcode}, ${patient.location.city}, ${patient.location.state}, ${patient.location.country}',
-                                        style: TextStyle(
-                                          color: AppColors.grey,
-                                          fontSize: 12,
-                                          fontFamily: "Overpass",
+                                        Text(
+                                          '${patient.location.postcode}, ${patient.location.city}, ${patient.location.state}, ${patient.location.country}',
+                                          style: TextStyle(
+                                            color: AppColors.grey,
+                                            fontSize: 12,
+                                            fontFamily: "Overpass",
+                                          ),
                                         ),
-                                      ),
-                                    ],
-                                  ),
-                                ],
+                                      ],
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
                             Container(

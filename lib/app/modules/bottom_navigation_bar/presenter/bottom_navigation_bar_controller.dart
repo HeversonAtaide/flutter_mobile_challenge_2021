@@ -12,6 +12,7 @@ class BottomNavigationBarController = _BottomNavigationBarControllerBase
     with _$BottomNavigationBarController;
 
 abstract class _BottomNavigationBarControllerBase with Store {
+  BuildContext contextGlobal;
   PageController pageViewController;
 
   List<Widget> _routerBottomMenuList = [];

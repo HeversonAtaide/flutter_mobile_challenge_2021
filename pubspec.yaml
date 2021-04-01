@@ -33,6 +33,7 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  map_launcher: ^1.0.0
   url_launcher: 
   shimmer: ^1.1.2
   delayed_display: ^1.1.0
@@ -76,6 +77,7 @@ flutter:
     - assets/json/
     - assets/images/
     - assets/images/bottom_menu_icons/
+    - assets/images/maps/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
